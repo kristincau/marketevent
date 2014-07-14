@@ -3,9 +3,21 @@
 	padding: 0;
 }
 
+h2 {
+	text-align: center;
+	text-decoration: none;
+	font-weight: normal;
+	margin: 20px 0 20px 0;
+}
+
+body{
+	width: 1789px;
+	zoom: 67%;
+}
+
 #page_container {
 	width: 459px;
-	height: 1050px;
+	height: 2250px;
 	margin-right: auto;
 	margin-left: auto;
 	border-right: 1px solid #eee;
@@ -15,25 +27,89 @@
 #right_space, #left_space{
 	background: #fff;
 	position: absolute;
-	top: 0;
-	height: 1050px;
-	width: 37%;
+	top: 830px;
+	height: 800px;
+	width: 663px;
 	z-index: 9999;
 }
 
 #right_space {
-	left: 63%;
+	left: 1126px;
 }
 
 .text_area{
 	width: 420px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 20px;
 }
 
 .button{
 	display: block;
 	margin: 0 auto;
+}
+
+.border{
+	margin: 35px 0 25px 0;
+}
+
+.menu{
+	position: absolute;
+	margin-top: -55px;
+	margin-left: 5px;
+}
+
+#menu2{
+	margin-left: 400px;
+}
+
+/**BANNERS **/
+.banner{
+	width: 459px;
+}
+
+#squareL, #squareR{
+	margin-top: 30px;
+	margin-left: 24px;
+}
+
+
+.text_area_over{
+	position: absolute;
+	width: 420px;
+	line-height: 1.4;
+}
+
+#b1text{
+	margin-top: -120px;
+	left:895px;
+	margin-left: -210px;
+
+}
+
+#b2text{
+	margin-top: -50px;
+	left:895px;
+	margin-left: -210px;
+}
+
+#b3text, #b4text{
+	margin-top: -30px;
+}
+
+#b4text{
+	margin-left: 255px;
+}
+
+#b3text {
+	margin-left: 35px;
+}
+
+
+
+#exp {
+	text-align: center;
+	margin: 35px 0 0 15px;
 }
 
 /**VOTE AREA**/
@@ -79,86 +155,4 @@
 	margin-left: -25px;
 	margin-top: 50px;
 	z-index: 3;
-}
-
-/**ZOOM AREA AND FUNCTIONS **/
-.drag_area{
-	position: absolute;
-}
-
-#da1 {
-
-}
-
-#da2 {
-	margin-left: 500px;
-}
-
-.button_zoom {
-	position: absolute;
-	margin: 5px;
-	z-index: 2;
-}
-
-#zoom_area{
-	background-color: #fff;
-	position: absolute;
-	z-index: 100;
-	width: 365px;
-	height: 750px;
-	left: 50%;
-	margin-left: -182.5px;
-	visibility: hidden;
-	opacity: 0;
-}
-
-#zoom_out_button1, #zoom_out_button2 {
-	position: absolute;
-	margin: 40px 0 0 20px;
-	z-index: 150;
-	width: 35px;
-	height: 35px;
-}
-
-#zoom_out1, #zoom_out2 {
-	width: 35px;
-	height: 35px;
-}
-
-#zoom_out1:hover, #zoom_out2:hover{
-	cursor: pointer;
-}
-
-#zoom_view1, #zoom_view2 {
-	position: relative;
-	margin-left: 10px;
-	margin-top: 30px;
-}
-
-#case_info {
-	text-align: center;
-	margin: 10px 0 10px 0;
-}
-
-#vbLarge1, #vbLarge2 {
-	margin-left: 9px;
-}
-
-.arrow{
-	position: absolute;
-	left: 50%;
-	top: 350px;
-	z-index: 200;
-}
-
-.arrow:hover {
-	cursor: pointer;
-}
-
-#arwL{
-	margin-left: -225px;
-}
-
-#arwR{
-	margin-left: 190px;
 }
