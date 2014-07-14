@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#page_container {
+	width: 459px;
+	height: 1050px;
+	margin-right: auto;
+	margin-left: auto;
+	border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+}
+
+#right_space, #left_space{
+	background: #fff;
+	position: absolute;
+	top: 0;
+	height: 1050px;
+	width: 625px;
+	z-index: 9999;
+}
+
+#right_space {
+	left: 1090px;
+}
+
+.text_area{
+	width: 420px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.button{
+	display: block;
+	margin: 0 auto;
+}
+
+/**VOTE AREA**/
+#vote_area{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	opacity: 1;
+}
+
+.vote_option{
+	display: block;
+	margin: 1px 0 1px 0;
+}
+
+.case_crop{
+	display: inline-block;
+	width: 194px;
+	height: 140px;
+	overflow: hidden;
+}
+
+.case_crop:hover {
+	cursor: pointer;
+}
+
+.case{
+	position: relative;
+	width: 194px;
+	z-index: 1;
+}
+
+.voteButton{
+	position: absolute;
+	margin-left: 5px;
+	display: inline-block;
+	width: 260px;
+	height:140px;
+	z-index: 4;
+}
+
+.carrot {
+	position: absolute;
+	margin-left: -25px;
+	margin-top: 50px;
+	z-index: 3;
+}
+
+/**ZOOM AREA AND FUNCTIONS **/
+.drag_area{
+	position: absolute;
+}
+
+#da1 {
+
+}
+
+#da2 {
+	margin-left: 500px;
+}
+
+.button_zoom {
+	position: absolute;
+	margin: 5px;
+	z-index: 2;
+}
+
+#zoom_area{
+	background-color: #fff;
+	position: absolute;
+	z-index: 100;
+	width: 365px;
+	height: 750px;
+	left: 50%;
+	margin-left: -182.5px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#zoom_out_button1, #zoom_out_button2 {
+	position: absolute;
+	margin: 40px 0 0 20px;
+	z-index: 150;
+	width: 35px;
+	height: 35px;
+}
+
+#zoom_out1, #zoom_out2 {
+	width: 35px;
+	height: 35px;
+}
+
+#zoom_out1:hover, #zoom_out2:hover{
+	cursor: pointer;
+}
+
+#zoom_view1, #zoom_view2 {
+	position: relative;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+#case_info {
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+
+#vbLarge1, #vbLarge2 {
+	margin-left: 9px;
+}
+
+.arrow{
+	position: absolute;
+	left: 50%;
+	top: 350px;
+	z-index: 200;
+}
+
+.arrow:hover {
+	cursor: pointer;
+}
+
+#arwL{
+	margin-left: -225px;
+}
+
+#arwR{
+	margin-left: 190px;
+}
