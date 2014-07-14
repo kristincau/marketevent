@@ -17,12 +17,12 @@
 	position: absolute;
 	top: 0;
 	height: 1050px;
-	width: 625px;
+	width: 37%;
 	z-index: 9999;
 }
 
 #right_space {
-	left: 1090px;
+	left: 63%;
 }
 
 .text_area{
