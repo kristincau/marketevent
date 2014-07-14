@@ -35,7 +35,6 @@ function overlay(e) {
 			var target = document.getElementById('zoom'+i);
 			target.removeEventListener("click", overlay );
 		}
-		
 		clickCount++;
 	}
 }
@@ -114,10 +113,15 @@ var caseNum= 0;
 var main= true; 
 
 $(document).ready(function() {
+	var parent = document.getElementById('vote_area');
+	for (var i=1; i<6; i++) {
+		parent.insertAdjacentHTML('beforeend', "<div class='vote_option'><div id='zoom"+i+"' class='case_crop'><img id= 'zoom"+i+"' class='button_zoom' src='assets/zoom"+i+".png'><img id='case"+i+"' class='case' style='margin-top: -150px' src='assets/case"+i+".png'></div><img class='carrot' src='assets/carrot"+i+".png'><img id='vb"+i+"' class='voteButton' src='assets/voteButton"+i+".png'></div>");
+	}
 	for (var i=1; i<6; i++) {
 		var target = document.getElementById('zoom'+i);
 		target.addEventListener("click", overlay );
 	}
+
 
 	var arwR = document.getElementById('arwR');
 	var arwL = document.getElementById('arwL');
