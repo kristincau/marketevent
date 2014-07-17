@@ -53,8 +53,22 @@
 	margin: 10px 0 10px 0;
 }
 
+.exp_note {
+	position: absolute;
+	left: 50%;
+	margin-left: -105px;
+	margin-top: -85px;
+	visibility: hidden;
+	opacity: 0;
+}
+
 #vbLarge1, #vbLarge2 {
 	margin-left: 9px;
+	opacity: 1;
+}
+
+#vbLarge1:hover , #vbLarge2:hover {
+	cursor: pointer;
 }
 
 .arrow{

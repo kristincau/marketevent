@@ -2,11 +2,12 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>DisneyWeeklyVote</title>
+	<title>NEW NEW NEW</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" type="text/css" href="zoom.css">
 	<script src="jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="zoom.js"></script>
+	<script type="text/javascript" src="vote.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
 			</p>
 		</div>
 
-		<img id='exp' src='assets/exp.png'>
+		<img class='exp' src='assets/exp.png'>
 		<img class='border' src='assets/border.png'>
 
 		<div class='text_area'>
@@ -48,6 +49,7 @@
 					<p>デザインの名前</p>
 				</div>
 				<img id='vbLarge1' src='assets/vbLarge1.png'>
+				<img class='exp_note' src='assets/exp_note.png'>
 			</div>
 
 			<div id='da2' class='drag_area'>
@@ -60,36 +62,41 @@
 					<p>デザインの名前</p>
 				</div>
 				<img id='vbLarge2' src='assets/vbLarge2.png'>
+				<img class='exp_note' src='assets/exp_note.png'>
 			</div>
 
 		</div>
 
 		<div id='vote_area'></div>
 
-		<img class='button' src='assets/b_live.png'>
-		<img class='border' src='assets/border.png'>
+		<div id='vote_feedback'>
+			<p id='leftext' class='squish'>どうしてこのケースデザイン選んだ？</p>
+			<textarea rows="4" cols="34" class='squish'></textarea>
+			<button class='button squish' type='button'>コメント投稿</button>
+			<br>
+			<button id='null' class='button squish' type='button'>コメント投稿しないで次へ</button>
+		</div>
 
-		<div class='text_area'>
+		<button id='current_b' class='button' type='button'>現在の結果を見る</button>
+		<img id='bump' class='border' src='assets/border.png'>
+
+		<div class='text_area bump'>
 			<h3>過去のVote</h3>
 		</div>
-		<img class='banner' src='assets/banner2.png'>
-		<div id='b2text' class='text_area_over'>
+		<img class='banner bump' src='assets/banner2.png'>
+		<div id='b2text' class='text_area_over bump'>
 			<p>先週のデザインテーマは「ミッキーマウス」！どこでかってなど。ここでおく。</p>
 		</div>
 
-		<img id='squareL' src='assets/banner3.png'>
-		<div id='b3text' class='text_area_over'>
+		<img id='squareL' class='bump' src='assets/banner3.png'>
+		<div id='b3text' class='text_area_over bump'>
 			<p>9.19 - 9.25のワイナー！</p>
 		</div>
 
-		<img id='squareR' src='assets/banner4.png'>
-		<div id='b4text' class='text_area_over'>
+		<img id='squareR' class='bump' src='assets/banner4.png'>
+		<div id='b4text' class='text_area_over bump'>
 			<p>9.26 -10.2 のワイナー！</p>
 		</div>
-
-
-
-
 	</div>
 
 </body>
