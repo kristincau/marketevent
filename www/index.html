@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Disney Weekly Vote</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+	<div id='page_container'>
+
+		<h3>DisneyWeeklyVote</h3>
+		<img id='menu1' class='menu' src='assets/menu1.png'>
+		<img id='menu2' class='menu' src='assets/menu2.png'>
+
+		<img class='banner' src='assets/banner1.png'>
+		<div class='text_area_over'>
+			<p>大好きなデザインを選んだら、そのデザインがディズニーモバイルのオリジナルスマートフォンケースに！自分の名前を入れられるオーダーメイドスマートフォンカバーとして、ディズニーストアから発売されるよ♪（11月発売開始予定）
+			</p>
+		</div>
+
+		<img id='exp' src='assets/exp.png'>
+		<img class='border' src='assets/border.png'>
+
+		<div class='text_area'>
+			<h4>今週のお願い</h4>
+			<p>今回のデザインテーマは「<b>キャッスル＆テーマパーク</b>」</p>
+			<p>みんな大好きミッキーマウス＆ミニーマウスとディズニー感満載のキャズルデザイン。あなたの好きなデザインはどれ？</p>
+		</div>
+
+		<div id='zoom_area'>
+			<img id='arwL' class='arrow' src='assets/arrowL.png'>
+			<img id='arwR' class='arrow' src='assets/arrowR.png'>
+
+			<div id='da1' class='drag_area'>
+				<div id='zoom_out_button1'>
+		 			<img id='zoom_out1' class='zoom_out' src='assets/zoomOut1.png'>
+		 		</div>
+				<img id='zoom_view1' src='assets/case1.png'>
+				<div id='case_info'>
+					<p>このけーすについて</p>
+					<p>デザインの名前</p>
+				</div>
+				<img id='vbLarge1' src='assets/vbLarge1.png'>
+				<img class='exp_note' src='assets/exp_note.png'>
+			</div>
+
+			<div id='da2' class='drag_area'>
+				<div id='zoom_out_button2'>
+		 			<img id='zoom_out2' src='assets/zoomOut2.png'>
+		 		</div>
+				<img id='zoom_view2' src='assets/case2.png'>
+				<div id='case_info'>
+					<p>このけーすについて</p>
+					<p>デザインの名前</p>
+				</div>
+				<img id='vbLarge2' src='assets/vbLarge2.png'>
+				<img class='exp_note' src='assets/exp_note.png'>
+			</div>
+
+		</div>
+
+		<div id='vote_area'></div>
+
+		<div id='vote_feedback'>
+			<p id='leftext' class='squish'>どうしてこのケースデザイン選んだ？</p>
+			<textarea rows="4" cols="34" class='squish'></textarea>
+			<button class='button squish' type='button'>コメント投稿</button>
+			<br>
+			<button id='null' class='button squish' type='button'>コメント投稿しないで次へ</button>
+		</div>
+
+		<button id='current_b' class='button' type='button'>現在の結果を見る</button>
+		<img id='bump' class='border' src='assets/border.png'>
+
+		<div class='text_area'>
+			<h4>過去のVote</h4>
+		</div>
+		<img class='banner' src='assets/banner2.png'>
+		<div class='text_area_over'>
+			<p>先週のデザインテーマは「ミッキーマウス」！どこでかってなど。ここでおく。</p>
+		</div>
+
+		<div id='squareL'>
+			<img id='bannerL'  src='assets/banner3.png'>
+			<div class='text_area_over_half'>
+				<p>9.19 - 9.25のワイナー！</p>
+			</div>
+		</div>
+
+		<div id='squareR'>
+			<img id='bannerR' src='assets/banner4.png'>
+			<div class='text_area_over_half'>
+				<p>9.26 -10.2 のワイナー！</p>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
