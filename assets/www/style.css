@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	visibility: hidden;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+body{
+	width: 100%;
+}
+
+h4 {
+	margin-bottom: 4%;
+}
+
+#page_container {
+	width: 100%;
+}
+
+.text_area{
+	width: 92%;
+	margin: 4%;
+	margin-bottom: 8%;
+}
+
+
+#leftext {
+	margin-left: 10px;
+}
+
+.button{
+	display: block;
+	margin:  4%;
+	width: 92%;
+	padding: 4% !important;
+	font-size: 22px;
+	background-color: #10bcc5;
+	color: #ffffff;
+	border: none;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#null {
+	background-color: #ffffff;
+	border: 1pt solid #8e8e8e;
+	color: #8e8e8e;
+}
+
+.border{
+	width: 100%;
+}
+
+/** TOP SECTION **/
+
+h3 {
+	text-align: center;
+	text-decoration: none;
+	font-weight: normal;
+	margin: 4% 0 4% 0;
+}
+
+.menu, .menu2 {
+	width: 7%;
+	margin-top: -7%;
+}
+
+.menu{
+	position: absolute;
+	margin-left: 4%;
+}
+
+#menu2{
+	margin-left: 89%;
+}
+
+#exp {
+	width: 92%;
+	margin: 4%;
+}
+
+/**BANNERS **/
+.banner{
+	width: 100%;
+}
+
+#squareL, #squareR{
+	display: inline-block;
+	width: 44%;
+}
+
+#squareL{
+	margin: 4% 2% 4% 4%;
+}
+
+#squareR {
+	margin: 4% 0 4% 2%;
+}
+
+#bannerL, #bannerR{
+	width: 100%;
+}
+
+
+.text_area_over{
+	width: 92%;
+	padding:4%;
+	background: #ddd;
+	margin-top: -1.5%
+}
+
+.text_area_over_half{
+	width: 92%;
+	padding: 4%;
+	background: #ddd;
+	margin-top: -2%
+}
+
+
+/**VOTE AREA**/
+#vote_area{
+	width: 100%;
+	opacity: 1;
+}
+
+.vote_option{
+	display: block;
+	width: 100%;
+	margin-top: -2%;
+}
+
+
+.case_crop{
+	display: inline-block;
+	position: relative;
+	width: 40%;
+	overflow: hidden;
+}
+
+.case{
+	width: 100%;
+	margin-top: -70%;
+}
+
+.voteButton{
+	display: inline-block;
+	position: absolute;
+	width: 60%;
+	z-index: 4 !important; 
+}
+
+.carrot {
+	position: absolute;
+	width: 13%;
+	margin-left: -9%;
+	margin-top: 7%;
+	z-index: 3;
+}
+
+/**ZOOM AREA AND FUNCTIONS **/
+
+
+#zoom_out {
+	position: absolute;
+	width: 8%;
+	margin: 4%;
+} 
+
+.exp_note {
+	position: absolute;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.arrow{
+	position: absolute;
+	top: 35%;
+	z-index: 200;
+}
+
+#arwL{
+	margin-left: -12%;
+}
+
+#arwR{
+	margin-left: 102%;
+}
+
+/** SLIDER **/
+
+#zoom_area{
+	position: absolute;
+	z-index: 100;
+	width: 78%;
+	visibility: hidden;
+	opacity: 0;
+	margin-top: -4%;
+	margin-left: 11%;
+}
+
+.slider {
+	position: relative;
+	width:100%;
+  	overflow-x: hidden;
+}
+
+.slide {
+  float: left;
+}
+
+#holder {
+  width: 600%;
+}
+.vbLarge {
+	opacity: 1;
+}
+#case_info {
+	margin: 4%;
+	text-align: center;
+}
+
+/** VOTE FEEDBACK **/
+
+
+textarea {
+	display: block;
+	height: auto;
+	width: 92%;
+	margin: 4%;
+	font-size: 14pt;
+	resize: none;
+}
+
+#vote_feedback{
+	visibility: hidden;
+	position: absolute;
+	width: 92%;
+	margin-left: 4%;
+	margin-right: 4%;
+	opacity: 0;
+}
+
+#null {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+
+

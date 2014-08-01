@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Live Results</title>
+	<link rel="stylesheet" type="text/css" href="results.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="results.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+	<div id='page_container'>
+		<h3>DisneyWeeklyVote</h3>
+		<img id='menu1' class='menu' src='assets/menu1.png'>
+		<img id='menu2' class='menu' src='assets/menu2.png'>
+		
+		<!--Live Results Description-->
+		<div class='text_area'>
+			<h4>現在の結果</h4>
+			<p>毎日２０時に投票にライブ壁紙がかわるよ！どんな花かがあがるか楽しみに！</p>
+		</div>
+
+		<!--CASE STATISTICS-->
+
+		<div id='vo1' class='vote_option'>
+			<div id='zoom1' class='case_crop'>
+				<img id='case1' class='case' src='assets/case1.png'>
+			</div>
+			<div class='gauge'>
+				<div class='grow' id='value1'></div>
+			</div>
+			<div class='result_percent'> 
+			</div>
+		</div>
+
+		<div id='vo2' class='vote_option'>
+			<div id='zoom2' class='case_crop'>
+				<img id='case2' class='case' src='assets/case2.png'>
+			</div>
+			<div class='gauge'>
+				<div class='grow' id='value2'></div>
+			</div>
+			<p class='result_percent' id='pv2'></p>
+		</div>
+
+		<div id='vo3' class='vote_option'>
+			<div id='zoom3' class='case_crop'>
+				<img id='case3' class='case' src='assets/case3.png'>
+			</div>
+			<div class='gauge'>
+				<div class='grow' id='value3'></div>
+			</div>
+			<p class='result_percent' id='pv3'></p>
+		</div>
+
+		<div id='vo4' class='vote_option'>
+			<div id='zoom4' class='case_crop'>
+				<img id='case4' class='case' src='assets/case4.png'>
+			</div>
+			<div class='gauge'>
+				<div class='grow' id='value4'></div>
+			</div>
+			<p class='result_percent' id='pv4'></p>
+		</div>
+
+		<div id='vo5' class='vote_option'>
+			<div id='zoom5' class='case_crop'>
+				<img id='case1' class='case' src='assets/case5.png'>
+			</div>
+			<div class='gauge'>
+				<div class='grow' id='value5'></div>
+			</div>
+			<p class='result_percent' id='pv5'></p>
+		</div>
+
+		<!--Go back button + border-->
+
+		<a href="index.html">
+			<button id='current_b' class='button' type='button'>投票に戻る</button>
+		</a>
+		<img class='border' src='assets/border.png'>
+
+		<!--COMMENT AREA-->
+		<div class='text_area'>
+			<h4>みんなコメント（162)</h4>
+		</div>
+
+		<!--Comment 1-->
+		<div id='comment_wrapper'>
+				<div id='princess1'>
+					<img id src='assets/princess_4.png'>
+				</div>
+				<div id='comment_text1'>
+					<h5>Belle_Awesomeness</h5>
+					<h6>ここも十月どうしてもその逡巡方というもののうち。</h6>
+					<h6 id='comment_time'>20 mins ago</h6>
+				</div>
+				<div id='small_case'>
+					<img src='assets/case1.png'>
+				</div>
+		</div>
+
+		<!--Comment 2-->
+		<div id='comment_wrapper'>
+			<div id='princess1'>
+				<img src='assets/princess_3.png'>
+			</div>
+			<div id='comment_text1'>
+				<h5>Eeyore_is_Sad</h5>
+				<h6>何だか十月に尊重家はいくらでもこの表裏ませない。</h6>
+				<h6 id='comment_time'>5 hrs ago</h6>
+			</div>
+			<div id='small_case'>
+				<img src='assets/case2.png'>
+			</div>
+		</div>
+
+		<!--Comment 3-->
+		<div id='comment_wrapper'>
+			<div id='princess1'>
+				<img id src='assets/princess_2.png'>
+			</div>
+			<div id='comment_text1'>
+				<h5>Cinderella1984</h5>
+				<h6>多少にはありないましたです。逡巡方という権力が考えた方は。</h6>
+				<h6 id='comment_time'>12 hrs ago</h6>
+			</div>
+			<div id='small_case'>
+				<img src='assets/case3.png'>
+			</div>
+		</div>
+
+		<!--Comment 4-->
+		<div id='comment_wrapper'>
+			<div id='princess1'>
+				<img id src='assets/princess_1.png'>
+			</div>
+			<div id='comment_text1'>
+				<h5>Tired_Princess</h5>
+				<h6>権力が考えた方はどうもすべてにも。もその逡巡方というもののうち。</h6>
+				<h6 id='comment_time'>1 day ago</h6>
+			</div>
+			<div id='small_case'>
+				<img src='assets/case4.png'>
+			</div>
+		</div>
+
+		<button id='seeComments' class='white_button' type='button'>もっと見る</button>
+	</div>
+</body>
+
+</html>

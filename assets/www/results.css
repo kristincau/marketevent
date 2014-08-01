@@ -1,0 +1,79 @@
+/**LIVE RESULTS **/
+.gauge {
+	position: relative;
+	display: inline-block;
+	width: 45%;
+	z-index: 4 !important; 
+}
+
+.grow {
+	width: 0;
+}
+
+.result_percent{
+	position: relative;
+	display: inline-block;
+	background: #f12;
+	height: 40px;
+	width: 10%;
+}
+
+#value1{
+	background:#9C6CA3;
+}
+
+#value2{
+	background:#DCC97B;
+}
+
+#value3{
+	background:#4BA3BF;
+}
+
+#value4{
+	background:#D792A0;
+}
+
+#value5{
+	background:#9ECD6C;
+}
+
+.white_button{
+	display: block;
+	margin:  4%;
+	width: 92%;
+	padding: 4% !important;
+	font-size: 22px;
+	background-color: #ffffff;
+	color: #000000;
+	border-style: solid;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+/**COMMENTS**/
+#comment_wrapper{
+	width: 100%;
+    overflow: hidden; 
+}
+
+#princess1{
+	margin-left: 4%;
+	float: left;
+	width:20%;
+}
+
+#comment_text1{
+	margin-left: 4%;
+	float: left;
+	width: 50%;
+}
+
+#comment_time{
+	color: #868686;
+}
+
+#small_case{
+	float: left;
+}
